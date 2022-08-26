@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Swikriti's Website</title>
+    <meta name ="description"content= "Finds Maximum Recomended Dose of Local Anesthesia Used in Dentistry">
+    <!-- <meta name="viewport" content = 'device-width, initial-scale=1.0' -->
+    <h1 style = "color:blue">Calculating MRD of LA based on Absolute Maximum Dose of LA and Weight of the Patient</b></h1>
+  </head>
+
+  <body style= "background-color:#e6e6ff">
+    <big>
+    <header>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+    </footer>
+    <br> <br>
+    <form>
+      Type Of LA:
+      <select id= "LA">
+        <option value="lido">Lidocaine</option>
+        <option value="mepi">Mepivacaine</option>
+        <option value="prilo">Prilocaine</option>
+        <option value= "bupi">Bupivacaine</option>
+        <option value="arti">Articaine</option>
+
+      </select>
+
+      <br> <br>
+      LA concentration(in %):
+      <input type = "number" id = "conc">
+      <br><br>
+      patient's weight (kg):
+      <input type = 'number' id = "wt">
+
+
+      <br><br><br>
+      <button type = "button" onclick = "mrda()"> <b> MRD based on absolute max. <u>(ml)</u></b></button>
+
+
+
+    </form>
+    <div id = 'result'></div>
+
+    <br>
+    <hr>
+    <form>
+      <br><button type = "button" onclick = "mrdw()"><b>MRD based on wt (<u>mg</u> of LA solution with vasoconstrictor) </b></button>
+    </form>
+    <div id = "done"></div>
+    </body>
+  </big>
+  <script src = "la.js"></script>
+</html>
