@@ -1,23 +1,13 @@
-- This is code for website that can calculate Maximum Recommended Dose(MRD) of Local Anesthesia (LA) used in Dentistry, based on patient's weight and absolute maximum in milliliter.
+- Code for a website that can calculate the Maximum Recommended Dose(MRD) of Local Anesthesia (LA) used in Dentistry.Its based on the patient's weight and absolute maximum.
 
-- This is only 'one' of the ways to avoid LA overdose, please use clinical discernment, experience and knowledge of the subject matter.
+- It is only 'one' of the ways to avoid LA overdose. Please use clinical discernment, experience, and knowledge of the subject matter.
 
-- All the MRD of LA based on weight, is in 'milligram' and 'with vasoconstrictor'.
+- All the MRD of LA based on weight is in 'milligram' and 'with vasoconstrictor '
 
-- Both MRD of LA based on weight and absolute maximum is as per FDA guidelines and as mentioned in textbook "Hand book of Local Anesthesia" by Stanely H Malamed, 7th edition
+- Both MRD of LA-based on weight and absolute maximum is as per FDA guidelines and as mentioned in the textbook "Hand book of Local Anesthesia" by Stanely H Malamed, 7thedition.
 
-MRDs used for the calculation: (with epinephrine)
-MRD for Lidocaine & Articaine = 500mg of LA
-MRD for Mepivacaine =  400mg of  LA
-MRD for Prilocaine =  600mg of  LA
-MRD for Bupivacaine = 200mg of  LA
+- MRDs used for the calculation: (with epinephrine) MRD for Lidocaine & Articaine = 500mg of LA , Mepivacaine = 400mg, Prilocaine = 600mg, Bupivacaine = 200mg
 
+- MRD calculated based on weight will never exceed the absolute maximum mg given for each LA mentioned above. Therefore, after a certain weight, MRD based on weight will remain the same i.e Absolute Maximum Value. This cutoff weight is not exact (due to roundoff) but is a tentative value.
 
-- MRD which is calculated based on weight will never exceed absolute maximum mg given for each LA mentioned above. Therefore, after certain weight, MRD based on weight will remain same ie absolute maximum value.This cutoff weight is not exact (due to roundoff) but tentative value.
-
-MRD based on weight for each LA:(with epinephrine)
-Lidocaine & Articaine = 7mg/kg
-Mepivacaine = 6.6mg/kg
-Prilocaine = 8mg/kg
-Bupivacine = 2mg/kg
-
+- MRD based on weight for each LA:(with epinephrine) Lidocaine & Articaine = 7mg/kg Mepivacaine = 6.6mg/kg Prilocaine = 8mg/kg Bupivacine = 2mg/kg
